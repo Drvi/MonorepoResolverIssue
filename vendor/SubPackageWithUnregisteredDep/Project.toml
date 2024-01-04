@@ -1,0 +1,14 @@
+name = "SubPackageWithUnregisteredDep"
+uuid = "781b6521-dd5a-4c06-adba-9e63bf241682"
+authors = ["Tomáš Drvoštěp <tomas.drvostep@gmail.com>"]
+manifest = "../../Manifest.toml"
+version = "0.1.0"
+
+[deps]
+ObjectStore = "1b5eed3d-1f46-4baa-87f3-a4a892b23610"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

@@ -1,0 +1,23 @@
+# This file is machine-generated - editing it directly is not advised
+
+julia_version = "1.10.0"
+manifest_format = "2.0"
+project_hash = "45e5f0ee27721780c12a6c60287ea785dbde7394"
+
+[[deps.ObjectStore]]
+git-tree-sha1 = "06bcccbbb63cae6ea7c72d2191dd6147f490c543"
+repo-rev = "main"
+repo-url = "https://github.com/RelationalAI/ObjectStore.jl"
+uuid = "1b5eed3d-1f46-4baa-87f3-a4a892b23610"
+version = "0.1.0"
+
+[[deps.OtherSubPackage]]
+path = "vendor/OtherSubPackage"
+uuid = "5974732e-7e91-43e1-9ea6-38e5f7b5a2e3"
+version = "0.1.0"
+
+[[deps.SubPackageWithUnregisteredDep]]
+deps = ["ObjectStore"]
+path = "vendor/SubPackageWithUnregisteredDep"
+uuid = "781b6521-dd5a-4c06-adba-9e63bf241682"
+version = "0.1.0"

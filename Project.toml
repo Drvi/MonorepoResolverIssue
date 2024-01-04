@@ -1,0 +1,8 @@
+name = "MonorepoResolverIssue"
+uuid = "64071e5d-7912-4525-81a3-4bb1bbe6a491"
+authors = ["Tomáš Drvoštěp <tomas.drvostep@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+OtherSubPackage = "5974732e-7e91-43e1-9ea6-38e5f7b5a2e3"
+SubPackageWithUnregisteredDep = "781b6521-dd5a-4c06-adba-9e63bf241682"
